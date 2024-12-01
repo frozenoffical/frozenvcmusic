@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "5967971901"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/frozenoffical/frozenvcmusic",
+    "https://github.com/Flash11552/effectbots",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vibeshiftbots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Frozensupport1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/leg_end010")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/effectbots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -89,15 +89,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+    "START_IMG_URL", "https://iili.io/219lnCG.md.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+    "PING_IMG_URL", "https://iili.io/219lnCG.md.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-STATS_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+PLAYLIST_IMG_URL = "https://iili.io/219lnCG.md.jpg"
+STATS_IMG_URL = "https://iili.io/219lnCG.md.jpg"
+TELEGRAM_AUDIO_URL = "https://iili.io/219lnCG.md.jpg"
+TELEGRAM_VIDEO_URL = "https://iili.io/219lnCG.md.jpg"
 STREAM_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
