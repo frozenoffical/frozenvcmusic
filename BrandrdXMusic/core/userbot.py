@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Frozensupport1")
-                await self.one.join_chat("vibeshiftbots")
-                await self.one.join_chat("Frozensupport1")
-                await self.one.join_chat("vibeshiftbots")
+                await self.one.join_chat("effectbots")
+                await self.one.join_chat("leg_end010")
+                await self.one.join_chat("effectbots")
+                await self.one.join_chat("leg_end010")
 
             except:
                 pass
